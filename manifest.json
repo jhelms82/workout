@@ -1,0 +1,14 @@
+{
+    "name": "Gym Tracker",
+    "short_name": "GT",
+    "description": "Manage your workouts",
+    "start_url": "/index.html",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#a9a9a9",
+    "theme_color": "#4285f4", 
+    "dir": "ltr",
+    "lang": "en-US"
+
+}
