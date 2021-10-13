@@ -18,5 +18,5 @@ self.addEventListener('fetch', function(event){
     //fires whenever the app request a resource (file or data)
     console.log("SW: fetching ${event.request.url}");
     //next, go get the requested resource from the network
-    event.respondWith(fetch(vent.request));
+    event.respondWith(fetch(event.request));
 })
