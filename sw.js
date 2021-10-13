@@ -6,7 +6,7 @@ self.addEventListener('install', function(event){
     console.log('SW: Event fire: ${event.type}');
 })
 
-self.addEventListener('active', function(event){
+self.addEventListener('activate', function(event){
     //fires when the browser install the app
   //its a place for the service worker to clean up from
   //previous service worker versions
@@ -16,7 +16,7 @@ self.addEventListener('active', function(event){
 
 self.addEventListener('fetch', function(event){
     //fires whenever the app request a resource (file or data)
-    console.log("SW: fetching ${event.request.url} ");
+    console.log("SW: fetching ${event.request.url}");
     //next, go get the requested resource from the network
     event.respondWith(fetch(vent.request));
 })

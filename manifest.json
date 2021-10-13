@@ -2,7 +2,7 @@
     "name": "Gym Tracker",
     "short_name": "GT",
     "description": "Manage your workouts",
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "scope": ".",
     "display": "standalone",
     "orientation": "portrait-primary",
